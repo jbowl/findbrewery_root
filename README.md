@@ -3,7 +3,7 @@
 
 https://findbrewery.jbowl.dev/
 
-## Containerized microservices implemented VIA AWS ECS running on a single EC2 instance.
+## Containerized microservices implemented via an AWS ECS cluster using a single EC2 instance.
 
 * Vue.js Web UI using NGINX as a web server. The client is using Google static maps API with location data returned from the Go API.
 * One Go service serving a JSON interface for the Vue frontend communicating to another via gRPC.  JSON->gRPC->JSON
