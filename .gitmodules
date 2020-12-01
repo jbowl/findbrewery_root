@@ -1,0 +1,12 @@
+[submodule "apibrewery"]
+	path = apibrewery
+	url = https://github.com/jbowl/apibrewery.git
+[submodule "findbrewery"]
+	path = findbrewery
+	url = https://github.com/jbowl/findbrewery.git
+[submodule "dispatch"]
+	path = dispatch
+	url = https://github.com/jbowl/dispatch.git
+[submodule "brewery"]
+	path = brewery
+	url = https://github.com/jbowl/brewery.git
