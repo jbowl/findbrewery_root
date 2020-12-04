@@ -7,7 +7,7 @@ apibrewery:
 	--go_opt=paths=source_relative \
 	--go-grpc_out=../apibrewery    \
 	--go-grpc_opt=paths=source_relative \
-	brewery.proto
+	../apibrewery/brewery.proto
 brewery:
 	docker build -f ../brewery/build/package/Dockerfile -t brewery ../	
 	docker tag brewery:latest 203502480794.dkr.ecr.us-east-2.amazonaws.com/brewery:latest
